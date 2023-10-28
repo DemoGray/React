@@ -1,0 +1,17 @@
+.btn{
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.text{
+  height: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.text.show{
+  height: 60px;
+}
